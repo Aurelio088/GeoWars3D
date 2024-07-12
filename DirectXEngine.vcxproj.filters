@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\Core\GameEngine.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\Window.cpp">
+      <Filter>Source\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\EntryPoint.cpp">
+      <Filter>Source\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Renderer.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Triangle.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\System\Win32.h">
+      <Filter>Include\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\System\Window.h">
+      <Filter>Include\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Core\GameEngine.h">
+      <Filter>Include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Graphics\Renderer.h">
+      <Filter>Include\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Graphics\DirectX.h">
+      <Filter>Include\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Graphics\Triangle.h">
+      <Filter>Include\Graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{9b77fbd8-8b96-43a0-a621-b3a65f5c1b15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Core">
+      <UniqueIdentifier>{2b1ba3e8-a2d5-46c7-a924-6f5f70945c3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\System">
+      <UniqueIdentifier>{df882cbe-558c-4da5-912a-912122b985e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{9adb25f2-6f6b-4d8c-9fc5-721b169e0740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core">
+      <UniqueIdentifier>{f4942b69-bdbe-4dc1-8d6e-e816ba9de808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System">
+      <UniqueIdentifier>{9ed6664e-58a9-431b-b4bb-4c6237c0396e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Graphics">
+      <UniqueIdentifier>{1a415370-0279-4a60-922b-91ab6175c1c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics">
+      <UniqueIdentifier>{e1281d98-c762-4cd9-afa6-4d3dd7fbb684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics\Shaders">
+      <UniqueIdentifier>{d9d81260-ea95-4193-98b6-63d7d73eba6a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Source\Graphics\Shaders\PixelShader.hlsl">
+      <Filter>Source\Graphics\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Graphics\Shaders\VertexShader.hlsl">
+      <Filter>Source\Graphics\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
