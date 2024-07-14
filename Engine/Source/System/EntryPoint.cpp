@@ -1,4 +1,5 @@
 #include <Core/GameEngine.h>
+#include <System/EntryPoint.h>
 #include <System/Win32.h>
 
 int WINAPI WinMain(_In_ HINSTANCE hInstance,
@@ -6,8 +7,5 @@ int WINAPI WinMain(_In_ HINSTANCE hInstance,
                    _In_ LPSTR lpCmdLine,
                    _In_ int nShowCmd)
 {
-    GameEngine game;
-    game.Run();
-
-    return 0;
+    return main();
 }

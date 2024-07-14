@@ -5,15 +5,16 @@ void GameEngine::Run()
     window.Initialize(800, 600, L"DirectX Engine");
     renderer.Initialize(800, 600, window.GetHandle());
 
-    triangle.Create(renderer.GetDevice());
+    Initialize();
 
     window.Show();
     while (window.IsOpen())
     {
         window.MessageLoop();
+        Update();
 
         renderer.Clear();
-        renderer.Draw(triangle);
+        Draw();
         renderer.Display();
     }
 }
