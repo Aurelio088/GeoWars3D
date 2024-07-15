@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectXEngine", "DirectXEngine.vcxproj", "{64A9E4AA-12E8-49E8-B9BF-B1E54965DC36}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectXEngine", "Engine\DirectXEngine.vcxproj", "{64A9E4AA-12E8-49E8-B9BF-B1E54965DC36}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeoWars3D", "GeoWars3D\GeoWars3D.vcxproj", "{AE0274FC-D506-4761-91EE-9842F2F534C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{BA160555-12FA-4C07-B9E8-340E032BC469}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Game", "Game", "{E600ADC5-CCE5-49DC-A809-B1102A07FF7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +27,21 @@ Global
 		{64A9E4AA-12E8-49E8-B9BF-B1E54965DC36}.Release|x64.Build.0 = Release|x64
 		{64A9E4AA-12E8-49E8-B9BF-B1E54965DC36}.Release|x86.ActiveCfg = Release|Win32
 		{64A9E4AA-12E8-49E8-B9BF-B1E54965DC36}.Release|x86.Build.0 = Release|Win32
+		{AE0274FC-D506-4761-91EE-9842F2F534C6}.Debug|x64.ActiveCfg = Debug|x64
+		{AE0274FC-D506-4761-91EE-9842F2F534C6}.Debug|x64.Build.0 = Debug|x64
+		{AE0274FC-D506-4761-91EE-9842F2F534C6}.Debug|x86.ActiveCfg = Debug|Win32
+		{AE0274FC-D506-4761-91EE-9842F2F534C6}.Debug|x86.Build.0 = Debug|Win32
+		{AE0274FC-D506-4761-91EE-9842F2F534C6}.Release|x64.ActiveCfg = Release|x64
+		{AE0274FC-D506-4761-91EE-9842F2F534C6}.Release|x64.Build.0 = Release|x64
+		{AE0274FC-D506-4761-91EE-9842F2F534C6}.Release|x86.ActiveCfg = Release|Win32
+		{AE0274FC-D506-4761-91EE-9842F2F534C6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64A9E4AA-12E8-49E8-B9BF-B1E54965DC36} = {BA160555-12FA-4C07-B9E8-340E032BC469}
+		{AE0274FC-D506-4761-91EE-9842F2F534C6} = {E600ADC5-CCE5-49DC-A809-B1102A07FF7B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE4F9695-E657-437C-BCE5-85899251CAF2}
